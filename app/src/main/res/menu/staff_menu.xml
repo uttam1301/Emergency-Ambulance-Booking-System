@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/operatorHome"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/operatorEmergencyBookings"
+            android:title="Emergency Bookings"
+            android:icon="@drawable/ic_emergency_bookings"/>
+        <item
+            android:id="@+id/operatorBookings"
+            android:title="Bookings"
+            android:icon="@drawable/ic_bookings"/>
+        <item
+            android:id="@+id/operatorAmbulanceStatus"
+            android:title="Ambulance Status"
+            android:icon="@drawable/ic_ambulance_status"/>
+        <item
+            android:id="@+id/operatorProfile"
+            android:title="Profile"
+            android:icon="@drawable/ic_profile"/>
+    </group>
+</menu>
