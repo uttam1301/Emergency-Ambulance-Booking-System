@@ -26,7 +26,8 @@
         android:layout_marginTop="20dp"
         android:padding="10dp"
         android:hint="Enter Id"
-        android:textStyle="italic"/>
+        android:textStyle="italic"
+        android:inputType="textEmailAddress"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,12 +38,25 @@
         android:layout_marginTop="20dp"
         android:padding="10dp"
         android:hint="Enter Password"
-        android:textStyle="italic"/>
+        android:textStyle="italic"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUserRePassword"
+        android:layout_below="@+id/etUserPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:hint="Re-enter Password"
+        android:textStyle="italic"
+        android:inputType="textPassword"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnSignIn"
-        android:layout_below="@id/etUserPassword"
+        android:layout_below="@id/etUserRePassword"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"

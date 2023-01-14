@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "366123196453",
+    "project_id": "emergency-ambulance-book-a49c8",
+    "storage_bucket": "emergency-ambulance-book-a49c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366123196453:android:8f85f5c45d73ba4d445fcc",
+        "android_client_info": {
+          "package_name": "com.uttamsaha.emergencyambulance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366123196453-iin9vlv6be6tbn0pja15lpuk9jcp8qh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATcUpU0YAJjfO4BMutnMQ4-HraZj8jrnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366123196453-iin9vlv6be6tbn0pja15lpuk9jcp8qh1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
